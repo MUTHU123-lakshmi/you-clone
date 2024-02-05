@@ -1,0 +1,263 @@
+body
+{
+    margin:0px;
+    margin-top:80px;
+    padding-left:100px;
+    padding-right:20px;
+    background-color: rgb(246, 242, 242);
+   
+
+}
+.header
+{
+    height:55px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background-color:white;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(162, 160, 160);
+    z-index:100;
+   
+
+
+
+}
+.left
+{
+    width:300px;
+    display:flex;
+    align-items:center;
+}
+
+.middle
+{
+    flex:1;
+    display:flex;
+    align-items:center;
+    max-width:600px;
+    margin-right:20px;
+  
+}
+
+.right
+{
+    width:230px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+   
+}
+.hammer
+{
+   height:25px;
+   cursor:pointer;
+   margin-left:20px;
+   margin-right:25px;
+}
+.you
+{
+    cursor:pointer;
+    height:20px;
+    margin-bottom:5px;
+
+}
+.search
+{
+    height:40px;
+    font-size:16px;
+    width:350px;
+    flex:1;
+    border:1px solid rgb(205, 201, 201);
+    border-radius:1px;
+    box-shadow:1px 0.5px 1px rgb(205, 201, 201);
+   
+
+}
+.search::placeholder
+{
+    padding-left:10px;
+    font-family:Roboto,Arial;
+    font-size:16px;
+
+}
+.search-icon
+{
+    height:40px;
+    width:60px;
+    padding-top:10px;
+    background-color:rgb(243, 241, 241);
+    border:1px solid rgb(205, 201, 201);
+    border-radius:1px;
+    margin-left:-1px;
+    margin-right:10px;
+    cursor:pointer;
+  
+}
+.voice-search
+{
+    height:30px;
+    width:40px;
+    border-radius:30px;
+    background-color:rgba(247, 244, 244, 0.95);
+    border:1px solid rgb(205, 201, 201);
+    border-radius:25px;
+    border:none;
+  
+}
+.search-button
+{
+    width:20px;
+    position:relative;
+    margin-bottom:40px;
+    cursor:pointer;
+   
+    
+}
+
+.search-icon .tooltip,.voice-search .tooltip
+
+
+{
+    position:absolute;
+    background-color: gray;
+    color:white;
+    height:20px;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:2px;
+    padding-bottom:2px;
+    font-family:Roboto,Arial;
+    font-size:14px;
+    border-radius:2px;
+    opacity:0;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+   
+ 
+}
+
+.search-icon:hover .tooltip,
+.voice-search:hover .tooltip
+
+
+{
+    opacity:1;
+  
+}
+
+.voice-button
+{
+    width:23px;
+    margin-bottom:40px;
+    position:relative;
+    cursor:pointer;
+
+}
+
+.upload
+{
+    height:25px;
+
+}
+.menu
+{
+    height:25px;
+
+}
+.notification
+{
+    height:25px;
+
+}
+.channel
+{
+    height:25px;
+
+}
+.sidebar
+{
+    width:70px;
+    position:fixed;
+    top:55px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+
+.side-link
+{
+    height:90px;
+    display:flex;
+    width:70px;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    cursor:pointer;
+
+}
+.side-link:hover
+{
+   background-color:rgba(247, 244, 244, 0.884) ;
+}
+.nav-img
+{
+    width:20px;
+}
+.menus
+{
+    position: relative;
+    cursor:pointer;
+   
+}
+.uploads
+{
+    position: relative;
+    cursor:pointer;
+}
+.notifications
+{
+    position: relative;
+    cursor:pointer;
+}
+.menus .tooltip,.uploads .tooltip,.notifications .tooltip
+
+
+{
+    position:absolute;
+    background-color: gray;
+    color:white;
+    height:20px;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:2px;
+    padding-bottom:2px;
+    font-family:Roboto,Arial;
+    font-size:14px;
+    border-radius:2px;
+    opacity:0;
+    margin-top: 40px;
+  
+}
+
+.menus:hover .tooltip,
+.uploads:hover .tooltip,
+.notifications:hover .tooltip
+
+{
+    opacity:1;
+  
+}
